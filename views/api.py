@@ -17,7 +17,7 @@ except ImportError:
     from django.utils import simplejson as json
 
 class BzAPI(object):
-    _baseurl = "https://api-dev.bugzilla.mozilla.org/latest/"
+    _baseurl = "https://bugzilla.mozilla.org/bzapi/"
     time_format = r'%Y-%m-%dT%H:%M:%SZ'
     
     def __init__(self):

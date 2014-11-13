@@ -84,7 +84,7 @@ TimeResetter.prototype = {
   {% if task.bug %}
     BzAPI = {
       
-      apibase : 'https://api-dev.bugzilla.mozilla.org/latest/',
+      apibase : 'https://bugzilla.mozilla.org/bzapi/',
       {% if task.bugid %}
       bugid : '{{ task.bugid }}',
       {% endif %}
